@@ -1,0 +1,17 @@
+<!--index.wxml-->
+<view class="container">
+
+  <view class='view_time'>
+    {{time}}
+
+  </view>
+
+
+  <view class='btn_container'>
+    <button class='btn_reset' bindtap='reset' hidden='{{showbtnReset}}'>复位</button>
+    <button class='btn_start' bindtap='startTime' style='background-color: {{btnBg}}'>{{btnText}}</button>
+
+
+  </view>
+
+</view>

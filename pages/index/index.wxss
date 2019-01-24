@@ -1,0 +1,47 @@
+/**index.wxss**/
+
+.view_time {
+  font-size: 100rpx;
+  color: red;
+  /* 字体粗细 取值范围为100-900 */
+  font-weight: 550;
+}
+
+.btn_start {
+  font-size: 30rpx;
+  width: 130rpx;
+  height: 130rpx;
+  color: white;
+  border: 0 solid transparent;
+  border-radius: 500rpx;
+  box-shadow: 2rpx 1rpx 1rpx #ccc;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.btn_reset {
+  margin-right: 100rpx;
+  font-size: 30rpx;
+  width: 130rpx;
+  height: 130rpx;
+  color: white;
+  border: 0 solid transparent;
+  border-radius: 500rpx;
+  box-shadow: 2px 1px 1px #ccc;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: lightgray;
+}
+
+.btn_container {
+  margin-top: 50rpx;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  position: fixed;
+  bottom: 0;
+  margin-bottom: 100rpx;
+}
