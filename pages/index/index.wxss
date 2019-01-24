@@ -4,13 +4,13 @@
   font-size: 100rpx;
   color: red;
   /* 字体粗细 取值范围为100-900 */
-  font-weight: 550;
+  font-weight: 600;
 }
 
 .btn_start {
-  font-size: 30rpx;
-  width: 130rpx;
-  height: 130rpx;
+  font-size: 40rpx;
+  width: 150rpx;
+  height: 150rpx;
   color: white;
   border: 0 solid transparent;
   border-radius: 500rpx;
@@ -23,9 +23,9 @@
 
 .btn_reset {
   margin-right: 100rpx;
-  font-size: 30rpx;
-  width: 130rpx;
-  height: 130rpx;
+  font-size: 40rpx;
+  width: 150rpx;
+  height: 150rpx;
   color: white;
   border: 0 solid transparent;
   border-radius: 500rpx;
@@ -43,5 +43,5 @@
   justify-content: space-between;
   position: fixed;
   bottom: 0;
-  margin-bottom: 100rpx;
+  margin-bottom: 200rpx;
 }
