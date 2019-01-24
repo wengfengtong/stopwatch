@@ -4,7 +4,12 @@
   font-size: 100rpx;
   color: red;
   /* 字体粗细 取值范围为100-900 */
-  font-weight: 600;
+  font-weight: 900;
+  border: 10rpx solid lightgray;
+  border-radius: 20rpx;
+  font-family: Arial;
+  padding: 20rpx;
+  background-color: wheat
 }
 
 .btn_start {
